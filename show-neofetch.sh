@@ -2,7 +2,7 @@
 echo neofetch >> .bashrc && source ~/.bashrc
 
 # Re-run neofetch when you use the clear command to clear the screen
-echo 'alias 'clear=clear && neofetch'' >> .bashrc && source ~/.bashrc
+echo "alias clear='clear && neofetch'" >> .bashrc && source ~/.bashrc
 
 # Do both of the above
-echo 'alias 'clear=clear && neofetch'' >> .bashrc && echo neofetch >> .bashrc && source ~/.bashrc
+echo "alias clear='clear && neofetch'" >> .bashrc && echo neofetch >> .bashrc && source ~/.bashrc
