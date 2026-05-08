@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Disable read only:
+sudo steamos-readonly disable
+
+# you may find even after disabling read only that you are not able to install programs from the package manager.
+# To resolve this run:
+
+sudo pacman-key --populate archlinux
+sudo pacman-key --populate holo
+sudo pacman-key --init
+
+# Then try installing whatever you were installing.
